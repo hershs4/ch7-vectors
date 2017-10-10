@@ -24,4 +24,4 @@ len <- length(all.numbers)
 odd <- seq(1,100,2)
 
 # Using the `all` and `%%` operators, confirm that all of the numbers in your `odd` vector are odd
-
+test <- all(odd %% 2 == 1)
